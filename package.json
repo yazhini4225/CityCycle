@@ -1,0 +1,23 @@
+{
+  "name": "citycycle-mobility-operations",
+  "version": "1.0.0",
+  "description": "CityCycle: Mobility Operations & Bike-Share Rebalancing Forecasting Engine",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve .",
+    "test": "pytest tests/test_pipeline.py",
+    "train": "python src/pipeline.py"
+  },
+  "keywords": [
+    "mobility",
+    "bike-share",
+    "time-series",
+    "xgboost",
+    "rebalancing",
+    "operations",
+    "hackathon"
+  ],
+  "author": "CityCycle Team",
+  "license": "MIT"
+}
